@@ -38,6 +38,20 @@ p {
     margin-bottom: 5px;
 }
 
+a {
+    color: #ff6a00;
+    text-decoration: none;
+}
+
+/* Idk if I want easing on this transition so I'm keeping it as a comment for now */
+/* .link {
+    transition: transform 0.1s ease;
+} */
+
+.link:hover {
+    transform: rotate(10deg) scale(1.4);
+}
+
 #main-div {
     display: flex;
     flex-direction: column;

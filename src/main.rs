@@ -24,6 +24,22 @@ fn App() -> View {
             }
 
             h2 {
+                "Links"
+            }
+
+            p(class="link") {
+                a(href="https://github.com/Geometry-Rays") {
+                    "Github"
+                }
+            }
+
+            p(class="link") {
+                a(href="https://discord.gg/dpkT256hWm") {
+                    "Discord"
+                }
+            }
+
+            h2 {
                 "Team"
             }
 
@@ -31,7 +47,7 @@ fn App() -> View {
                 "Puppet: Lead Dev and Website Creator"
             }
 
-            p {
+            p(style="padding-bottom: 200px;") {
                 "Lncvrt: Secondary Dev"
             }
         }
