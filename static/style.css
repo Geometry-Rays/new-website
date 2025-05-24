@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'GrixelAcme9';
+    src: url('font.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: black;
+    font-family: 'GrixelAcme9', sans-serif;
+    background:
+        linear-gradient(rgba(5, 5, 5, 0.93), rgba(5, 5, 5, 0.93)),
+        url("background.png");
+}
+
+h1 {
+    color: red;
+    font-size: 70px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    color: red;
+    font-size: 50px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+p {
+    color: red;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#main-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
