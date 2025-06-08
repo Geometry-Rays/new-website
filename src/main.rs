@@ -28,6 +28,12 @@ fn App() -> View {
             }
 
             p(class="link") {
+                a(href="https://github.com/Geometry-Rays/geometry-rays/releases") {
+                    "Download"
+                }
+            }
+
+            p(class="link") {
                 a(href="https://github.com/Geometry-Rays") {
                     "Github"
                 }
